@@ -14,9 +14,16 @@ The project is modelled on the [Repo Hooks API](http://developer.github.com/v3/r
 
 Hooks can be configured to trigger to one or more events. The available events are:
 
-* item_added
-* item_updated
-* item_deleted
+* *item_adding* - An item is being added
+* *item_added* - An item has been added
+* *item_updating* - An item is being updated
+* *item_updated* - An item has been updated
+* *item_deleting* - An item is being deleted
+* *item_deleted* - An item has been deleted
+* *item_checking_in* - An item is being checked in
+* *item_checked_in* - An item has been checked in
+* *item_checking_out* - An item is being checked out
+* *item_checked_out* - An item has been checked out
 
 Once the Webhooks feature is activated on a site, all lists are "Hook enabled". All you need to do is create a hook using the API below to start using it.
 
